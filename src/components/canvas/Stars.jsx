@@ -42,3 +42,7 @@ const StarsCanvas = () => {
 };
 
 export default StarsCanvas;
+
+//template_lkg71ey
+//service_07i6678
+//bDs-Z-L8mPwr1avML

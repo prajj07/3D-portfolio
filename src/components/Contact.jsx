@@ -1,3 +1,12 @@
+import React, { useRef, useState } from "react";
+import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
+
+import { styles } from "../styles";
+import { EarthCanvas } from "./canvas";
+import { SectionWrapper } from "../hoc";
+import { slideIn } from "../utils/motion";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -28,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Prajwal M",
+          to_name: "JavaScript Mastery",
           from_email: form.email,
-          to_email: "prajwalvm10@gmail.com",
+          to_email: "sujata@jsmastery.pro",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -125,7 +134,3 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
-
-//template_lkg71ey
-//service_07i6678
-//bDs-Z-L8mPwr1avML
