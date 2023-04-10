@@ -2,7 +2,8 @@
 
 3D-Portfolio is a simple, lightweight and responsive web application that showcases your portfolio using 3D effects. It is built using React, Three.js, and Sass. The application uses a combination of HTML, CSS, and JavaScript to create a visually appealing 3D experience.
 
-![3Dprot](https://user-images.githubusercontent.com/83826853/230948808-80abae00-b03e-4271-8043-bacbf97472e4.png)
+![3Dprot](https://user-images.githubusercontent.com/83826853/230950299-a3335dbd-2668-44b3-9ea0-977cfe13b7b4.png)
+
 
 #Features
 •Responsive design that works on all devices.
